@@ -20,7 +20,7 @@ body {
 }
 
 .principal {
-    background-image: url("img/Background.png");
+   background-image: url(Background.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -50,4 +50,12 @@ body {
 .container__aviso {
     font-size: 12px;
     color: var(--cinza-secundario)
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+.secundario {
+    align-items: center;
+    margin:0 10em;
 }
